@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pozadina{
+    background-color: #c5ce30;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    
+   }
+
+   .prvi{
+
+    background-color: #c5ce30;
+    font-family: merienda;
+    font-size: 2em;
+   }
+
+h2, p{
+    line-height: 1.5;
+    padding-left: 15px;
+}
+
+.background{
+
+    background-color: #74c6f8;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: merienda;
+    font-size: 2em;
+}
+p{
+    color: white;
+}
+
+.paragraf{
+
+    color: black;
+    line-height: 2;
+    padding-top: 5px;
+    font-size: 1.2em;
+}
+
+.gallery{
+
+    text-align: center;
+    background-color: #74c6f8;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .left-panel, .middle-panel, .right-panel {
+    flex: 1; 
+  }
+  
+ 
+  .left-panel, .middle-panel, .right-panel{
+    background-color: #74c6f8;
+    max-width: 33,33%;
+   
+
+    }
+
+    img {
+        max-width: 33,33%;
+        height: auto; 
+        height: 23em;
+        width: 20em;
+        margin-left: 14%;
+        margin-right: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .pozadina{
+            background-color: #c5ce30;
+            font-size: 1.3em;
+            font-family: 'Times New Roman', Times, serif;
+            
+           }
+        
+           .prvi{
+        
+            background-color: #c5ce30;
+            font-family: merienda;
+            font-size: 1.8em;
+           }
+
+           h2, p{
+            line-height: 1.5;
+            padding-left: 15px;
+        }
+        
+        .background{
+        
+            background-color: #74c6f8;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        h2{
+            font-family: merienda;
+            font-size: 1.8em;
+        }
+        p{
+            color: white;
+        }
+        
+        .paragraf{
+        
+            color: black;
+            line-height: 2;
+            padding-top: 5px;
+            font-size: 1em;
+        }
+        
+        .gallery{
+        
+            text-align: center;
+            background-color: #74c6f8;
+        }
+        
+        .container {
+            display: flex;
+          }
+          
+          .left-panel, .middle-panel, .right-panel {
+            flex: 1; 
+          }
+          
+          
+          .left-panel, .middle-panel, .right-panel{
+            background-color: #74c6f8;
+            max-width: 33,33%;
+           
+        
+            }
+            }
+        
+            img {
+                max-width: 33,33%;
+                height: auto; 
+                height: 20em;
+                width: 17em;
+                margin-left: 14%;
+                margin-right: 10%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        
+            }
+
+
+            @media screen and (max-width: 1024px) {
+
+                .pozadina{
+                    background-color: #c5ce30;
+                    font-size: 1.1em;
+                    font-family: 'Times New Roman', Times, serif;
+                    
+                   }
+                
+                   .prvi{
+                
+                    background-color: #c5ce30;
+                    font-family: merienda;
+                    font-size: 1.5em;
+                   }
+        
+                   h2, p{
+                    line-height: 1.5;
+                    padding-left: 15px;
+                }
+                
+                .background{
+                
+                    background-color: #74c6f8;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+                
+                h2{
+                    font-family: merienda;
+                    font-size: 1.6em;
+                }
+                p{
+                    color: white;
+                }
+                
+                .paragraf{
+                
+                    color: black;
+                    line-height: 2;
+                    padding-top: 5px;
+                    font-size: 0.8em;
+                }
+                
+                .gallery{
+                
+                    text-align: center;
+                    background-color: #74c6f8;
+                }
+                
+                .container {
+                    display: flex;
+                  }
+                  
+                  .left-panel, .middle-panel, .right-panel {
+                    flex: 1; 
+                  }
+                  
+                  
+                  .left-panel, .middle-panel, .right-panel{
+                    background-color: #74c6f8;
+                    max-width: 33,33%;
+                   
+                
+                    }
+                
+                    img {
+                        max-width: 33,33%;
+                        height: auto; 
+                        height: 17em;
+                        width: 14em;
+                        margin-left: 14%;
+                        margin-right: 10%;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                
+                    }
+        }
+
+
+        @media screen and (max-width: 768px) {
+
+            .pozadina{
+                background-color: #c5ce30;
+                font-size: 0.8em;
+                font-family: 'Times New Roman', Times, serif;
+                
+               }
+            
+               .prvi{
+            
+                background-color: #c5ce30;
+                font-family: merienda;
+                font-size: 1.2em;
+               }
+    
+               h2, p{
+                line-height: 1.5;
+                padding-left: 15px;
+            }
+            
+            .background{
+            
+                background-color: #74c6f8;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            h2{
+                font-family: merienda;
+                font-size: 1.4em;
+            }
+            p{
+                color: white;
+            }
+            
+            .paragraf{
+            
+                color: black;
+                line-height: 2;
+                padding-top: 5px;
+                font-size: 0.6em;
+            }
+            
+            .gallery{
+            
+                text-align: center;
+                background-color: #74c6f8;
+            }
+            
+            .container {
+                display: flex;
+              }
+              
+              .left-panel, .middle-panel, .right-panel {
+                flex: 1; 
+              }
+              
+            
+              .left-panel, .middle-panel, .right-panel{
+                background-color: #74c6f8;
+                max-width: 33,33%;
+               
+            
+                }
+            
+                img {
+                    max-width: 33,33%;
+                    height: auto; 
+                    height: 14em;
+                    width: 11em;
+                    margin-left: 14%;
+                    margin-right: 10%;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+            
+                }
+    
+    }
+
+    @media screen and (max-width: 430px) {
+
+        .pozadina{
+            background-color: #c5ce30;
+            font-size: 0.5em;
+            font-family: 'Times New Roman', Times, serif;
+            
+           }
+        
+           .prvi{
+        
+            background-color: #c5ce30;
+            font-family: merienda;
+            font-size: 1em;
+           }
+
+           h2, p{
+            line-height: 1.5;
+            padding-left: 15px;
+        }
+        
+        .background{
+        
+            background-color: #74c6f8;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        h2{
+            font-family: merienda;
+            font-size: 1.1em;
+        }
+        p{
+            color: white;
+        }
+        
+        .paragraf{
+        
+            color: black;
+            line-height: 2;
+            padding-top: 5px;
+            font-size: 0.4em;
+        }
+        
+        .gallery{
+        
+            text-align: center;
+            background-color: #74c6f8;
+           padding-right: 5%;
+        }
+        
+        .container {
+            display: block;
+            height: 63vh;
+            margin-top: 0px;
+            margin-bottom: -100px;
+          }
+          
+         
+        
+            
+        
+            img {
+                max-width: 33,33%; 
+                height: auto; 
+                height: 10em;
+                width: 8em;
+                margin-left: 35%;
+                margin-right: 15%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        
+            }
+
+}

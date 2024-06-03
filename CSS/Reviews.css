@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    background-color: #c5ce30;
+    font-size: 2.5em;
+    font-family: merienda;
+    line-height: 1.5;
+    padding-left: 50px;
+}
+
+
+.container {
+    display: flex;
+  }
+  
+  .left,
+  .right {
+    flex: 1;
+    border: 1px solid #74c6f8;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #74c6f8;
+    padding-left: 50px;
+  }
+
+.containerdva {
+    display: flex;
+    background-color: #c5ce30;
+  }
+  
+  .logo, .text {
+    flex: 1; 
+    text-align: center; 
+  }
+  
+  .logo img {
+    max-width: 70%; 
+    height: 70%;
+    margin-right: 20px;
+    margin-top: 15%;
+     
+  }
+  
+  
+  .text {
+    background-color: #c5ce30;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 200px;
+    font-size: 1.5em;
+    
+  }
+  
+  @media screen and (max-width: 1280px) {
+
+    h2{
+      background-color: #c5ce30;
+      font-size: 2.1em;
+      font-family: merienda;
+      line-height: 1.5;
+      padding-left: 50px;
+  }
+  
+  
+  .container {
+      display: flex;
+    }
+    
+    .left,
+    .right {
+      flex: 1;
+      border: 1px solid #74c6f8;
+      padding: 10px;
+      font-size: 1.1em;
+      background-color: #74c6f8;
+      padding-left: 50px;
+    }
+  
+  .containerdva {
+      display: flex;
+      background-color: #c5ce30;
+    }
+    
+    .logo, .text {
+      flex: 1; 
+      text-align: center;
+    }
+    
+    .logo img {
+      max-width: 60%;
+      height: 60%;
+      margin-right: 20px;
+      margin-top: 15%;
+       
+    }
+    
+   
+    .text {
+      background-color: #c5ce30;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 169px;
+      font-size: 1.1em;
+       
+    }
+    
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    h2{
+      background-color: #c5ce30;
+      font-size: 1.8em;
+      font-family: merienda;
+      line-height: 1.5;
+      padding-left: 50px;
+  }
+  
+  
+  .container {
+      display: flex;
+    }
+    
+    .left,
+    .right {
+      flex: 1;
+      border: 1px solid #74c6f8;
+      padding: 10px;
+      font-size: 0.8em;
+      background-color: #74c6f8;
+      padding-left: 50px;
+    }
+  
+  .containerdva {
+      display: flex;
+      background-color: #c5ce30;
+    }
+    
+    .logo, .text {
+      flex: 1; 
+      text-align: center; 
+    }
+    
+    .logo img {
+      max-width: 55%; 
+      height: 55%;
+      margin-right: 20px;
+      margin-top: 15%;
+       
+    }
+    
+    
+    .text {
+      background-color: #c5ce30;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 110px;
+      font-size: 1em;
+       
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+
+    h2{
+      background-color: #c5ce30;
+      font-size: 1.3em;
+      font-family: merienda;
+      line-height: 1.5;
+      padding-left: 50px;
+  }
+  
+  
+  .container {
+      display: flex;
+    }
+    
+    .left,
+    .right {
+      flex: 1;
+      border: 1px solid #74c6f8;
+      padding: 10px;
+      font-size: 0.6em;
+      background-color: #74c6f8;
+      padding-left: 50px;
+    }
+  
+  .containerdva {
+      display: flex;
+      background-color: #c5ce30;
+    }
+    
+    .logo, .text {
+      flex: 1; 
+      text-align: center; 
+    }
+    
+    .logo img {
+      max-width: 52%; 
+      height: 52%;
+      margin-right: 20px;
+      margin-top: 15%;
+       
+    }
+    
+    
+    .text {
+      background-color: #c5ce30;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 80px;
+      font-size: 1em;
+       
+    }
+    
+  }
+
+  @media screen and (max-width: 430px) {
+
+    h2{
+      background-color: #c5ce30;
+      font-size: 1em;
+      font-family: merienda;
+      line-height: 1.5;
+      padding-left: 50px;
+  }
+  
+  
+  .container {
+      display: block;
+    }
+    
+    .left,
+    .right {
+      flex: 1;
+      border: 1px solid #74c6f8;
+      padding: 10px;
+      font-size: 0.4em;
+      background-color: #74c6f8;
+      padding-left: 50px;
+    }
+  
+  .containerdva {
+      display: block;
+      background-color: #c5ce30;
+      height: 100vh;
+    }
+    
+    
+    
+    .logo img {
+      max-width: 45%; 
+      height: 45%;
+      margin-right: 20px;
+      margin-top: 15%;
+       
+    }
+    
+    
+    .text {
+      background-color: #c5ce30;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 40px;
+      font-size: 1em;
+       
+    }
+    
+  }
